@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*-------------------------------------------------------------------------------------------------------------------
+Nome do programa: Jogo da Velha em C
+Objetivo: Executar um Jogo da Velha entre dois jogadores enviando comandos pelo terminal ou pelo compilador.
+Modo de jogar: Leia os pedidos enviados no seu terminal de compilação e envie os comandos requisitados.
+
+Autor do programa: Ronaldo Zica.
+Contato:
+	Github: @ronaldozica
+	e-mail: rzica42@gmail.com
+
+-------------------------------------------------------------------------------------------------------------------*/
+
 int confere_jogo(char jogo[3][3], char *simb_aux, char jog1)
 {
 	if( (jogo[0][0] == *simb_aux) && (jogo[0][0] == jogo [0][1]) && (jogo[0][1] == jogo[0][2]) )
